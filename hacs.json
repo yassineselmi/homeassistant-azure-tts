@@ -1,0 +1,5 @@
+{
+    "name": "Azure Text to speech",
+    "render_readme": true,
+    "domains": "tts"
+  }

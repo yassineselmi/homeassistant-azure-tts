@@ -1,0 +1,11 @@
+{
+    "domain": "azure_tts",
+    "name": "Azure Text to speech (TTS)",
+    "version": "v0.1.0",
+    "documentation": "https://github.com/yassineselmi/homeassistant-azure-tts",
+    "issue_tracker": "https://github.com/yassineselmi/homeassistant-azure-tts/issues",
+    "codeowners": [
+      "@yassineselmi"
+    ],
+    "iot_class": "cloud_push"
+  }
