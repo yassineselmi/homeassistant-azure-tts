@@ -18,9 +18,6 @@ tts:
   - platform: azure_tts
     service_name: azure_say
     api_key: <your_api_key>
-    language: en-US
-    type: JeanNeural # Optional
-    region: eastus # Optional. Default: eastus
 
 ```
 
