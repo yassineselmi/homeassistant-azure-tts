@@ -405,7 +405,7 @@ class AzureProvider(Provider):
             prosody.set('pitch', self._pitch)
             prosody.set('contour', self._contour)
 
-            _LOGGER.debug("Azure TTS - Request body: "+ ElementTree.tostring(body))
+            _LOGGER.debug(ElementTree.tostring(body))
 
             response = requests.post(endpoint, ElementTree.tostring(body), headers=headers)
 
